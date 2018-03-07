@@ -69,7 +69,7 @@ def loadData(fileName):
     return dataMat, label
 
 def main():
-    dataMat, label = loadData('text.txt')
+    dataMat, label = loadData('test.txt')
     fig = plt.figure(0)
     ax = fig.add_subplot(111)
     ax.scatter(dataMat[:, 0], dataMat[:, 1], c=label, cmap=plt.cm.Paired)
