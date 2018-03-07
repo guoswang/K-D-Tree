@@ -2,14 +2,7 @@
 
 ## 数据集
 6个点:    
-x |y |label|
----|---|---|
-2|	3|	0|
-5|	4|	0|
-9|	6|	0|
-4|	7|	0|
-8|	1|	0|
-7|	2|	0|
+![这里写图片描述](http://img.blog.csdn.net/2018030720420894)   
 ## Result
 ### k-d tree 构建
 {'split': 0, 'median': array([ 7.,  2.]), 'left': {'split': 1, 'median': array([ 5.,  4.]), 'left': {'split': 0, 'median': array([ 2.,  3.]), 'left': None, 'right': None}, 'right': {'split': 0, 'median': array([ 4.,  7.]), 'left': None, 'right': None}}, 'right': {'split': 1, 'median': array([ 9.,  6.]), 'left': {'split': 0, 'median': array([ 8.,  1.]), 'left': None, 'right': None}, 'right': None}}       
